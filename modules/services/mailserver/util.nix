@@ -15,5 +15,5 @@ with builtins; {
       (x + "-" + (substring 0 7 (hashString "sha512" "${x}${salt}"))
         + "@ckie.dev")) aliases);
 
-  default-aliases = [ "nixpkgs" "github" ];
+  default-aliases = [ "nixpkgs" "github" "lobsters" ];
 }
